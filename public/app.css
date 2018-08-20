@@ -1,0 +1,76 @@
+/* Line 820 darkblue.css */
+body {
+    background-color: #1467B1;
+}
+
+/* Line 232 darkblue.css */
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover,
+.page-sidebar {
+    background-color: #1467B1;
+}
+
+/* Line 245 darkblue.css */
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a,
+.page-sidebar .page-sidebar-menu > li > a {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: #D7DEEA;
+}
+
+/* Line 271 darkblue.css */
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a,
+.page-sidebar .page-sidebar-menu > li:hover > a,
+.page-sidebar .page-sidebar-menu > li.open > a {
+    background: #1582d0;
+    color: #ffffff;
+}
+
+/* Line 347 darkblue.css */
+.page-sidebar-closed .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu:hover .sub-menu, .page-sidebar-closed
+.page-sidebar .page-sidebar-menu:hover .sub-menu {
+    background-color: #1467B1;
+}
+
+/* Line 372 darkblue.css */
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li:hover > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.active > a,
+.page-sidebar .page-sidebar-menu .sub-menu > li:hover > a,
+.page-sidebar .page-sidebar-menu .sub-menu > li.open > a,
+.page-sidebar .page-sidebar-menu .sub-menu > li.active > a {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.datepicker-dropdown.datepicker-orient-left:before {
+    left: 189px;
+}
+
+.datepicker-dropdown.datepicker-orient-left:after {
+    left: 190px;
+}
+
+.datepicker.dropdown-menu {
+    left: 257px !important;
+}
+
+@media (max-width: 991px) {
+    .page-sidebar .page-sidebar-menu > li .sub-menu {
+        background-color: #1467B1 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header.navbar .top-menu .navbar-nav > li.dropdown.open .dropdown-toggle {
+        background-color: #1467B1;
+    }
+
+    .page-header.navbar .top-menu {
+        background-color: #1467B1;
+    }
+
+    .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle {
+        background-color: #1467B1;
+    }
+
+    .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle:hover {
+        background-color: #1467B1;
+    }
+}
+
